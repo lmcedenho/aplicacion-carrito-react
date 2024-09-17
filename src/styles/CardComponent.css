@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-content{
+    flex: 1;
+}
+
+.card-title{
+    margin: 0;
+}
+
+.card-description{
+    margin: 0 0 10px 0;
+    text-align: justify;
+}
+
+.card-price{
+    margin: 0;
+    font-weight: bold;
+}
+
+.remove-button{
+    background-color: rgb(95, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.add-button{
+    background-color: rgb(2, 82, 9);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.remove-button:hover{
+    background-color: rgb(141, 8, 8);
+}
+.add-button:hover{
+    background-color: rgb(2, 122, 12);
+}
+
+.shopping-list{
+    margin-top: 5%;
+}
